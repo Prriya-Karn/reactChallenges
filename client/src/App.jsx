@@ -1,9 +1,10 @@
-import { Fragment } from "react"
-import { CharCounter } from "./Challenges/CharCounter";
+import { Fragment } from "react";
+import CounterApp from "./Challenges/CounterApp";
 const App = ()=>{
+
   return(
     <Fragment>
-   <CharCounter/>
+      <CounterApp />
     </Fragment>
   )
 }
