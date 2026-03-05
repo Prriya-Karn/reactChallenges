@@ -1,11 +1,8 @@
-import { Fragment } from "react";
-import CounterApp from "./Challenges/CounterApp";
-const App = ()=>{
 
-  return(
-    <Fragment>
-      <CounterApp />
-    </Fragment>
-  )
+import Home from "./pages/Home";
+
+function App() {
+  return <Home />;
 }
+
 export default App;
