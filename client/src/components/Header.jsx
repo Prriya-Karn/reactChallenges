@@ -28,11 +28,32 @@ const Header = () => {
 
                     {/* Desktop Nav */}
                     <nav className="hidden md:flex items-center gap-8 text-gray-300 text-sm">
+
                         <a href="#home" className="hover:text-teal-400">Home</a>
+
                         <a href="#about" className="hover:text-teal-400">About</a>
+
                         <a href="#services" className="hover:text-teal-400">Services</a>
+
+                        <a href="#portfolio" className="hover:text-teal-400">Portfolio</a>
+
+                        <a href="#process" className="hover:text-teal-400">Process</a>
+
+                        <a href="#industries" className="hover:text-teal-400">Industries</a>
+                        <a href="#testimonial"
+                            className="hover:text-teal-400">
+                            Testimonial
+                        </a>
+
+                        <a href="#pricing"
+                            className="hover:text-teal-400">
+                            Pricing
+                        </a>
+
                         <a href="#team" className="hover:text-teal-400">Team</a>
+
                         <a href="#contact" className="hover:text-teal-400">Contact</a>
+
                     </nav>
 
                     {/* Desktop Button */}
@@ -97,6 +118,36 @@ const Header = () => {
                         className="hover:text-teal-400">
                         Services
                     </a>
+
+                    <a href="#portfolio"
+                        onClick={() => setMenuOpen(false)}
+                        className="hover:text-teal-400">
+                        Portfolio
+                    </a>
+
+                    <a href="#process"
+                        onClick={() => setMenuOpen(false)}
+                        className="hover:text-teal-400">
+                        Process
+                    </a>
+                    <a href="#industries"
+                        onClick={() => setMenuOpen(false)}
+                        className="hover:text-teal-400">
+                        Industries
+                    </a>
+
+                    <a href="#testimonial"
+                        onClick={() => setMenuOpen(false)}
+                        className="hover:text-teal-400">
+                        Testimonial
+                    </a>
+
+                    <a href="#pricing"
+                        onClick={() => setMenuOpen(false)}
+                        className="hover:text-teal-400">
+                        Pricing
+                    </a>
+
 
                     <a href="#team"
                         onClick={() => setMenuOpen(false)}

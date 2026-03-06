@@ -30,11 +30,52 @@ export default function Footer() {
                 <div>
                     <h3 className="font-semibold mb-4">Quick Links</h3>
                     <ul className="space-y-2 text-gray-400 text-sm">
-                        <li className="hover:text-cyan-400 cursor-pointer"> <a href="#home" >Home</a></li>
-                        <li className="hover:text-cyan-400 cursor-pointer"> <a href="#about" >About</a></li>
-                        <li className="hover:text-cyan-400 cursor-pointer"><a href="#services">Services</a></li>
-                        <li className="hover:text-cyan-400 cursor-pointer"><a href="team">Team</a></li>
-                        <li className="hover:text-cyan-400 cursor-pointer"><a href="#contact">Contact</a></li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#home">Home</a>
+                        </li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#about">About</a>
+                        </li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#services">Services</a>
+                        </li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#process">Process</a>
+                        </li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#industries">Industries</a>
+                        </li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#testimonial">
+                                Testimonial
+                            </a>
+                        </li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#pricing">
+                                Pricing
+                            </a>
+                        </li>
+
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#team">Team</a>
+                        </li>
+
+                        <li className="hover:text-cyan-400">
+                            <a href="#contact">Contact</a>
+                        </li>
+
                     </ul>
                 </div>
 

@@ -21,28 +21,28 @@ export default function Team() {
                 <div className="grid md:grid-cols-4 gap-8 mt-16">
 
                     <TeamCard
-                        image="https://images.unsplash.com/photo-1560250097-0b93528c311a"
+                        image="Images/mathivanan-selvaraj-pjB_MqXadzI-unsplash.jpg"
                         name="Dr. Rajesh Kumar"
                         role="Chief Executive Officer"
                         desc="15+ years in AI research and development"
                     />
 
                     <TeamCard
-                        image="https://images.unsplash.com/photo-1580489944761-15a19d654956"
+                        image="Images/tony-luginsland-ODrd-02Q6JI-unsplash.jpg"
                         name="Priya Sharma"
                         role="Chief Technology Officer"
                         desc="Expert in machine learning and neural networks"
                     />
 
                     <TeamCard
-                        image="https://images.unsplash.com/photo-1607746882042-944635dfe10e"
+                        image="Images/tony-luginsland-bbOOTiq-EPA-unsplash.jpg"
                         name="Amit Patel"
                         role="Head of Data Science"
                         desc="Specialized in big data and predictive analytics"
                     />
 
                     <TeamCard
-                        image="https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+                        image="Images/tony-luginsland-ZAo0cKz_IKM-unsplash.jpg"
                         name="Sneha Desai"
                         role="Lead AI Engineer"
                         desc="Building next-gen AI solutions"
